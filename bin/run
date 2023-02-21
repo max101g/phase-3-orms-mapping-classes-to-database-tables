@@ -3,5 +3,18 @@
 require 'pry'
 require_relative '../config/environment'
 
+
+
+# pp song1=Song.create_table
+# pp song2=DB[:conn].execute("PRAGMA table_info(songs)")
+
+# pp gold_digger = Song.new(name: "Gold Digger", album: "Late Registration")
+# hello = Song.new(name: "Hello", album: "25")
+
+
+pp gold_digger.save
+
+
+
 binding.pry
 "pls"
